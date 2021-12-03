@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@images": [
+        "./assets/images"
+      ],
+      "@svg": [
+        "./assets/svg"
+      ],
+      "@components/*": [
+        "./app/components/*"
+      ],
+      "@config/*": [
+        "./app/config/*"
+      ],
+      "@translate": [
+        "./app/i18n"
+      ],
+      "@models": [
+        "./app/models"
+      ],
+      "@models/*": [
+        "./app/models/*"
+      ],
+      "@navigators": [
+        "./app/navigators"
+      ],
+      "@navigators/*": [
+        "./app/navigators/*"
+      ],
+      "@screens/*": [
+        "./app/screens/*"
+      ],
+      "@api": [
+        "./app/services/api"
+      ],
+      "@api/*": [
+        "./app/services/api/*"
+      ],
+      "@theme": [
+        "./app/theme"
+      ],
+      "@utils/*": [
+        "./app/utils/*"
+      ]
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "type"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./"
+  ],
+  "extends": "expo/tsconfig.base"
+}
